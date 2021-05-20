@@ -1,0 +1,16 @@
+body {
+    background-color: #DE354C;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80px 80px 80px;
+}
+
+.container > div {
+    background: #FFFFFF;
+}

@@ -1,0 +1,29 @@
+body {
+    background-color: #DE354C;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+.header {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80px;
+}
+
+.menu {
+    display: grid;
+    grid-column: 1 / 1;
+    
+}
+
+.content {
+    display: grid;
+    grid-column: 2 / -1;
+    
+    /*position:absolute; top:105px; left:8px; z-index:1*/
+}
+
+.header > div {
+    background: #FFFFFF;
+}

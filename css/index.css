@@ -1,0 +1,99 @@
+body {
+
+    background-color: #DE354C;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.container {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px 300px;
+}
+
+.container > div {
+    background: #FFFFFF;
+}
+
+.slider {
+    grid-column: 1 / 3;
+}
+
+.footer {
+    grid-column: 2 / -1;
+}
+.footer-left {
+    grid-column: 1 / 1;
+}
+
+.nested {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 150px 150px;
+}
+
+.nested > .single, .days {
+    border-style: hidden solid solid hidden;
+    border-color: #DE354C;
+}
+
+.nested > .days {
+    border-style: hidden hidden solid hidden;
+    border-color: #DE354C;
+}
+
+.nested-footer {
+    grid-column: 1 / 3;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+p {
+    line-height: 150%;
+}
+
+.mouseover {
+    border: none;
+    color: black;
+    transition: 0.3s;
+}
+
+a {
+    background: #FFFFFF;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    background: #932432;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
