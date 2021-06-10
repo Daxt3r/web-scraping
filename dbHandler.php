@@ -3,9 +3,9 @@
 class dbHandler {
 
     private $servername = "localhost";
-    private $username = "id16557550_mdaxt3r";
-    private $password = "H49NGWJx3x6tcCe!";
-    private $database = "id16557550_playlist";
+    private $username = "XXXXX";
+    private $password = "XXXXX";
+    private $database = "XXXXX";
 
     private $conn;
     private $array_titel_id = array();
